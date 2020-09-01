@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InputData解析</title>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <script src="./index.js"></script>
+</head>
+<body class="container">
+
+<h1>以太坊交易InputData解析</h1>
+<br> <label for="locationName">TransactionHash:</label> <input type="text" class="form-control" id="TXHash" placeholder="Transaction Hash" value = "0xb1c0abd217193ffe64f97caedad8fa6f0f9c0265967d2ab9fb782280c928fb47"></input>
+<br>
+<button class="btn btn-primary" id="getInputData" onclick="App.getInputData()">解析InputData</button>
+<br> 
+
+<!-- 浩哥注释 -->
+<div >
+  <div style="float: left;">
+    <h3>ABI</h3>
+    <br>
+    <textarea id="textArea" rows="15" cols="70"  ></textarea>
+  </div>
+  <div style="float: left;margin-left: 30px;">
+    <h3>InputData</h3>
+    <br>
+    <textarea id="textArea2" rows="15" cols="70"  ></textarea>
+  </div>
+</div>
+</body>
+</html>
+
+
