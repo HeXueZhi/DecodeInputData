@@ -4,7 +4,7 @@
 
 交易hash：[0xb1c0abd217193ffe64f97caedad8fa6f0f9c0265967d2ab9fb782280c928fb47](https://cn.etherscan.com/tx/0xb1c0abd217193ffe64f97caedad8fa6f0f9c0265967d2ab9fb782280c928fb47)
 
-![inputdata](http://i.loli.net/2020/09/01/zRVY1tOMWE37aqJ.png)
+![inputdata](https://i.loli.net/2020/09/01/zRVY1tOMWE37aqJ.png)
 
 需要将交易中的数据解码为上图中的数据。
 
